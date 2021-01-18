@@ -1,0 +1,109 @@
+* {
+  margin: 0 auto; 
+}
+
+body {
+  background-color: #041b50;
+}
+
+h1 {
+  margin-bottom: 10px;
+  color: #0138b4;
+  background-color: white ;
+  width:1041px;
+  height:112;
+  font-family:[font1] ;
+  font-size: 50.2px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.contenedor1 {
+  width: 1050px;
+  height: 400px;
+}
+
+.divleft {
+  float: left;
+  width: 500px;
+}
+
+.divright {
+float: right;
+width: 449px;
+}
+
+h2 {
+margin-bottom: 10px;
+text-align: center; 
+color: #ffd65b;
+background-color: #ffd65b;
+width: 1041px;
+height: 14px;
+}
+
+.homepage {
+  position: relative;
+}
+.cardmini {
+      width: 55px;
+      position: absolute;
+      height: 55px;
+      margin-left: -200px;
+}
+
+
+
+.welcome {
+  color:#d9ffa9;
+  font-family: verdana;
+  font-size: 25px; 
+}
+
+.validationcard {
+  color: white;
+  font-family: verdana;
+  font-size: 22.8px;
+}
+
+strong {
+  font-weight: lighter;
+}
+
+#cardnumber {
+  
+  color: #0e434b;
+  background-color: white ;
+  font-family: verdana;
+  width: 423px;
+  height:30px;
+
+  font-size: 18.8px;
+}
+
+.play {
+
+  color: white;
+  background-color: #11848f;
+  font-family: verdana;
+  width:162px;
+  height:39px;
+  border-radius: 17px;
+  border-color: rgb(33, 201, 150);
+  font-size: 18px;
+}
+
+.validationok {
+
+  color: #fff28f;
+  font-family: verdana;
+  font-size: 22px;
+}
+
+.footerfinal {
+
+  color: white;
+  font-family: verdana;
+  font-size: 10px;
+}
