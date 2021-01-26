@@ -1,0 +1,183 @@
+* {
+  margin: 0 auto;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+body {
+  background-color: #041b50;
+}
+
+/* h1-"Venta Genial"*/
+#home-logo {
+  margin-bottom: 10px;
+  color: #0138b4;
+  background-color: white ;
+  width:1041px;
+  height:112;
+  font-family:[font1] ;
+  font-size: 50.2px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: relative;
+}
+
+/* h1-logo de tarjeta */
+#card-logo {
+  width: 67px;
+  position: absolute;
+  height: 67px;
+  margin-left: -150px;
+  margin-top: -5px;
+}
+
+/* h2, bloque largo amarillo */
+#line {
+  margin-bottom: 10px;
+  text-align: center;
+  color: #ffd65b;
+  background-color: #ffd65b;
+  width: 1041px;
+  height: 14px;
+}
+
+/* caja contenedora grande */
+.long-container {
+  width: 1040px;
+  height: 400px;
+}
+
+/* caja contenedora de la imagen a la izquierda */
+.left-container {
+  float: left;
+  width: 500px;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+/* imagen de tarjeta online */
+.online-card {
+  border-radius: 15px;
+  width: 550px;
+  height: 280px;
+}
+
+/* caja contenedora de la derecha con "bienvenido" */
+.right1-container {
+  float: right;
+  width: 420px;
+  margin-top: 35px;
+  margin-right: 16px;
+  color:#d9ffa9;
+  font-family: verdana;
+  font-size: 25px;
+  text-align: center;
+ }
+
+strong {
+  font-weight: lighter;
+} 
+
+/* caja contenedora de la derecha con párrafo */
+.right2-container {
+  float: right;
+  width: 330px;
+  margin-top: 30px;
+  margin-right: 60px;
+  color: white;
+  font-family: verdana;
+  font-size: 22.8px;
+  text-align: justify;
+}
+
+ /* caja contenedora del medio */
+.central-container {
+  width: 1040px;
+  height: 300px;
+  margin-top: -55px;
+  text-align: center;
+  position: relative;  
+}
+
+/* diseño al input de texto */
+.card-number {
+  color: #0e434b;
+  background-color: white;
+  font-family: verdana;
+  width: 423px;
+  height: 30px;
+  font-size: 18.8px;
+  text-align: center;
+  border-radius: 10px;  
+}
+
+/* diseño de los botones */
+.user-buttons {
+  color: white;
+  background-color: #02b395ea;
+  font-family: verdana;
+  width: 162px;
+  height: 39px;
+  border-radius: 17px;
+  border-color: rgb(100, 233, 166);
+  font-size: 18px;
+  outline: none;
+  margin-left: 25px;
+}
+
+.user-buttons:hover{
+  background: rgba(67, 238, 187, 0.836);
+}
+
+/* imagen del botón correcto */
+.correct-button {
+  background-image:url("/image_card_validation/correct.png");
+  background-size: 12%;
+  background-position: 790px 20px;
+  background-repeat: no-repeat;
+  width: 1040px;
+  height: 300px;
+  margin-top: -55px;
+  text-align: center;
+  position: relative;
+  text-align: center;
+}
+
+/* imagen del botón incorrecto*/
+.incorrect-button {
+  background-image: url("/image_card_validation/wrong.png");
+  background-size: 12%;
+  background-position: 790px 20px;
+  background-repeat: no-repeat;
+  width: 1040px;
+  height: 300px;
+  margin-top: -55px;
+  text-align: center;
+  position: relative;
+  text-align: center;
+}
+
+/* texto de validación */
+.validation-message {
+  color: #fff28f;
+  font-family: verdana;
+  font-size: 22px;
+}
+
+#footer-page {
+  width:1041px;
+  height:10px;
+  color: rgb(216, 210, 210);
+  font-family: verdana;
+  font-size: 12px;
+  text-align: left;
+  margin-top: -96px;
+}
+
+

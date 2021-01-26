@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-with, initial-scale=1.0">
+    <title> 💳 VENTA GENIAL | Card Validation  </title>
+    <link rel="stylesheet" href="style.css" />
+
+  </head>
+
+  <body>
+   
+    <header>
+
+      <h1 id="home-logo"> <img id="card-logo" src="image_card_validation/tarjetacrédito.png" width="115px" height="115px"
+      alt="Imagen de tarjeta" /> VENTA GENIAL</h1>
+
+      <h2 id="line" ></h2>
+
+    </header>
+
+    <main>
+      
+      <!--Espacio contenedor de imagen y texto -->
+      <div class = "long-container">
+      <div class="left-container"> <img class="online-card" src="image_card_validation/pago_online.jpg" width="570px" height="320px" alt="Imagen de pago online" /> </div>
+
+      <section> 
+        <article class="right1-container"> 
+          <p>  <strong> ¡BIENVENIDO! 😀 </strong> </p> 
+        </article>
+        <br>
+        <br>
+        <article class="right2-container">
+         <p id="validation" class="validationcard">Valida la tarjeta de crédito de tu cliente y ten una venta genial.</p> 
+        </article> 
+        
+      </section>
+
+      </div>
+      
+      <!-- Ingrese el número de la tarjeta -->
+      <section>
+
+        <article id="homepage" class="central-container show">
+        <input type="text" maxlength="16" id="cardnumber" class="card-number" placeholder =  "Ingrese los dígitos de la tarjeta aquí" autofocus>
+        <br> 
+        <br>
+        <br>
+        <input type="button" id="firstbutton" class="user-buttons " value="Validar">
+
+        </article>
+
+      </section>
+
+      <!-- El resultado es válido -->
+      <section>
+
+        <article id="correctcard" class= "correct-button hide" >
+        <input type="text" id="correctcardnumber" class="card-number " placeholder="Regrese para ingresar otra tarjeta"
+        autofocus >
+        <br>
+        <br>
+        <p class="validation-message"> La tarjeta de crédito es válida</p>        
+        <br>
+        <br>      
+        <input type="button" id="correctbutton" class="user-buttons" value="Regresar">
+
+        </article>
+
+      </section>
+
+      <!-- El resultado no es válido -->
+      <section>
+        
+        <article id="incorrectcard" class="incorrect-button hide">      
+        <br>
+        <p class="validation-message"> La tarjeta de crédito no es válida</p>        
+        <br>
+        <br>
+        <br>
+        <input type="button" id="incorrectbutton" class="user-buttons" value="Regresar">
+
+        </article>
+
+      </section>
+
+    </main>
+
+    <footer 
+    id="footer-page" >©Copyright 2021 Wendy Hachilla 
+    </footer>
+
+    <script src="index.js" type="module"></script>
+  </body>
+  
+</html>
