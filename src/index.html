@@ -5,78 +5,95 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-with, initial-scale=1.0">
-    <title> 💳 VENTA GENIAL | Card Validation </title>
+    <title> 💳 VENTA GENIAL | Card Validation  </title>
     <link rel="stylesheet" href="style.css" />
 
   </head>
 
   <body>
-   <!-- header, representa contenido introductorio, puede contener algunos elementos de encabezado, pero tb un logotipo, un formulario de búsqueda, nombre de autor y otros elementos. -->
-    <header id="home" class="homepage">
-      <div>  
-      <h1><img class="cardmini" src="imágenes_card_validation/tarjetacrédito.png" width="115px" height="115px"
-          alt="Imagen de tarjeta" /> VENTA GENIAL</h1>
-      </div>
-<!--Una línea amarilla -->
-      <h2></h2>
+   
+    <header>
+
+      <h1 id="home-logo"> <img id="card-logo" src="image_card_validation/tarjetacrédito.png" width="115px" height="115px"
+      alt="Imagen de tarjeta" /> VENTA GENIAL</h1>
+
+      <h2 id="line" ></h2>
+
     </header>
 
-    <!-- main, representa el contenido dominante de <body> de un documento, contenido que está relacionado con el tema central de un documento. Un documento no debe tener más de un main. El main no contribuye al esquema del documento, es decir a diferencia de elementos como body, encabezados como h2, y el main no afecta el concepto de Dom de la estructura de la página. Es estrictamente informativo. -->
     <main>
-      <!--Logo, afuera de section para que aparezca en todas las páginas-->
-      <div class = "contenedor1"> 
-      <div class="divleft"> <img src="imágenes_card_validation/pago_online.jpg" width="570px" height="320px"
-          alt="Imagen de pago online" /></div>
       
+      <!--Espacio contenedor de imagen y texto -->
+      <div class = "long-container">
+      <div class="left-container"> <img class="online-card" src="image_card_validation/pago_online.jpg" width="570px" height="320px" alt="Imagen de pago online" /> </div>
 
-      <!-- contenido de bienvenida -->
-      <section class="divright"> <p id="welcomeid" class="welcome"> <strong>¡BIENVENIDO! 😀 </strong> </p>
-      <p id="validation" class="validationcard">Valida la tarjeta de crédito de tu cliente y ten una venta genial.</p>
-
-      <!-- id, solo se puede dar ese nombre una sola vez -->
-      <!-- Considera que "id" está pensado para que no lo repitas y lo utilices sólo una vez a pesar de que sí es posible usarlo más de una ocasión. En el caso de "class" está pensado para que lo utilices las veces que sea requerido.  -->
-    
-
-       <input type="text"  id="cardnumber" placeholder="Ingrese los dígitos de la tarjeta aquí" autofocus required>
-
-       <!-- autofocus, para que se vea seleccionado; required, para que solicite -->
-
-       <input type="button" id="playvalidation" class="play" value="Validar" onclick="nextpage()"
-
-
+      <section> 
+        <article class="right1-container"> 
+          <p>  <strong> ¡BIENVENIDO! 😀 </strong> </p> 
+        </article>
+        <br>
+        <br>
+        <article class="right2-container">
+         <p id="validation" class="validationcard">Valida la tarjeta de crédito de tu cliente y ten una venta genial.</p> 
+        </article> 
+        
       </section>
 
       </div>
-
-      <!-- Agregar otro section. Resultado es válido -->
+      
+      <!-- Ingrese el número de la tarjeta -->
       <section>
 
-        <p id="correct" class="validationok" > La tarjeta de crédito es válida</p>
-        <img src="imágenes_card_validation/correct.png" width="114px" height="148" />
+        <article id="homepage" class="central-container show">
+        <input type="text" maxlength="16" id="cardnumber" class="card-number" placeholder =  "Ingrese los dígitos de la tarjeta aquí" autofocus>
+        <br> 
+        <br>
+        <br>
+        <input type="button" id="firstbutton" class="user-buttons " value="Validar">
 
-        <input type="button" id="playcorrect" class="play" value="Regresar" onclick="nextpage()"
+        </article>
 
       </section>
 
-      <!-- Resultado no válido -->
+      <!-- El resultado es válido -->
       <section>
 
-        <p id="incorrect"  class="validationok" >La tarjeta de crédito no es válida</p>
-        <img src="imágenes_card_validation/wrong.png" width="114px" height="148" />
+        <article id="correctcard" class= "correct-button hide" >
+        <input type="text" id="correctcardnumber" class="card-number " placeholder="Regrese para ingresar otra tarjeta"
+        autofocus >
+        <br>
+        <br>
+        <p class="validation-message"> La tarjeta de crédito es válida</p>        
+        <br>
+        <br>      
+        <input type="button" id="correctbutton" class="user-buttons" value="Regresar">
 
-        <input type="button" id="playincorrect" class="play" value="Regresar" onclick="nextpage()"
+        </article>
+
+      </section>
+
+      <!-- El resultado no es válido -->
+      <section>
+        
+        <article id="incorrectcard" class="incorrect-button hide">      
+        <br>
+        <p class="validation-message"> La tarjeta de crédito no es válida</p>        
+        <br>
+        <br>
+        <br>
+        <input type="button" id="incorrectbutton" class="user-buttons" value="Regresar">
+
+        </article>
 
       </section>
 
     </main>
 
+    <footer 
+    id="footer-page" >©Copyright 2021 Wendy Hachilla 
+    </footer>
 
-
-
-
-
-     <!-- footer, puede contener el mapa del sitio, botón superior de enlaces de contacto información sobre derechos de autor o autoría, etc -->
-    <footer class="footerfinal" >©Copyright 2021 Wendy Hachilla</footer>
     <script src="index.js" type="module"></script>
   </body>
+  
 </html>

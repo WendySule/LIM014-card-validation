@@ -1,5 +1,33 @@
 # Tarjeta de crédito válida
 
+## Proyecto: Venta Genial
+
+Este proyecto va dirigido a los microempresarios y emprendedores, para que validen las tarjetas de crédito de sus clientes y su venta sea la más óptima posible.
+
+![HOME PAGE](https://ibb.co/P9Vt5GF)
+
+## Definición de producto
+
+* Los principales usuarios son los microempresarios y emprendedores.
+* El objetivo es realizar una validación rápida y efectiva de las tarjetas de crédito de sus clientes.
+* Los emprendedores tendrán una página confiable a la mano para sus ventas diarias, solo tendrán que digitar los números de la tarjeta a validar.
+
+### 1er prototipo realizado en papel
+
+![FIRST PROTOTYPE](https://ibb.co/5vJfMCR)
+
+#### Feedback:
+* Agregar solo una imagen principal y cuando se valide que las demás imágenes sean pequeñas.
+* Elegir el tamaño del logo acorde al título.
+* Agregar una alerta cuando no se ingresaron los dígitos.
+
+### Prototipo final realizado en Canva
+![PAGE ONE](https://ibb.co/D4NnKVS)
+![PAGE TWO](https://ibb.co/LghYcSQ)
+![PAGE THREE](https://ibb.co/p3QNpfG)
+
+***
+
 ## Índice
 
 * [1. Preámbulo](#1-preámbulo)
