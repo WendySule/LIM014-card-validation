@@ -4,7 +4,7 @@
 
 Este proyecto va dirigido a los microempresarios y emprendedores, para que validen las tarjetas de crédito de sus clientes y su venta sea la más óptima posible.
 
-![HOME PAGE](https://ibb.co/P9Vt5GF)
+![HOME PAGE](https://i.ibb.co/RBJ7CTY/P-gina-web-Final-Venta-Genial.png)
 
 ## Definición de producto
 
@@ -14,7 +14,7 @@ Este proyecto va dirigido a los microempresarios y emprendedores, para que valid
 
 ### 1er prototipo realizado en papel
 
-![FIRST PROTOTYPE](https://ibb.co/5vJfMCR)
+![FIRST PROTOTYPE](https://i.ibb.co/mtPMDdc/Primer-prototipo.jpg)
 
 #### Feedback:
 * Agregar solo una imagen principal y cuando se valide que las demás imágenes sean pequeñas.
@@ -22,9 +22,9 @@ Este proyecto va dirigido a los microempresarios y emprendedores, para que valid
 * Agregar una alerta cuando no se ingresaron los dígitos.
 
 ### Prototipo final realizado en Canva
-![PAGE ONE](https://ibb.co/D4NnKVS)
-![PAGE TWO](https://ibb.co/LghYcSQ)
-![PAGE THREE](https://ibb.co/p3QNpfG)
+![PAGE ONE](https://i.ibb.co/mJm7zDM/1.png)
+![PAGE TWO](https://i.ibb.co/gWFmfyv/2.png)
+![PAGE THREE](https://i.ibb.co/648G5HV/3.png)
 
 ***
 
