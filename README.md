@@ -10,7 +10,7 @@ Este proyecto va dirigido a los microempresarios y emprendedores, para que valid
 
 * Los principales usuarios son los microempresarios y emprendedores.
 * El objetivo es realizar una validación rápida y efectiva de las tarjetas de crédito de sus clientes.
-* Los emprendedores tendrán una página confiable a la mano para sus ventas diarias, solo tendrán que digitar los números de la tarjeta a validar.
+* Los emprendedores tendrán una página confiable a la mano para sus ventas diarias, solo tienen que digitar los números de la tarjeta a validar.
 
 ### 1er prototipo realizado en papel
 
